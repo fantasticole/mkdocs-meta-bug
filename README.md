@@ -1,4 +1,9 @@
 # Mkdocs Meta Bug Example
+## Specs
+
+Mkdocs version 0.17.3
+
+## The issue
 
 In the [Custom themes](https://www.mkdocs.org/user-guide/custom-themes/) section of the mkdocs site, there is [a section](https://www.mkdocs.org/user-guide/custom-themes/#pagemeta) that says that page meta data can be accessed a certain way:
 
@@ -38,3 +43,7 @@ However, when using this exact example, the behavior is not as expected. When th
 
 ...
 ```
+
+This results in a list of linked letters:
+
+![linked letters](https://user-images.githubusercontent.com/10889800/42520059-5a9d677c-8433-11e8-8018-7ea3b2c391b5.png)
