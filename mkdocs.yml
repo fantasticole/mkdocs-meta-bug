@@ -1,0 +1,6 @@
+site_name: Meta Bug
+pages:
+    - Sample: sample.md
+theme:
+    name: null
+    custom_dir: 'new_theme'

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}</title>
+  </head>
+  <body>
+    {% for filename in page.meta.source %}
+      <a class="github" href="https://github.com/.../{{ filename }}">
+        <span class="label label-info">{{ filename }}</span>
+      </a>
+    {% endfor %}
+  </body>
+</html>

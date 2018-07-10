@@ -1,0 +1,14 @@
+{
+    "docs": [
+        {
+            "location": "/sample/",
+            "text": "Page title\n\n\nContent...",
+            "title": "Sample"
+        },
+        {
+            "location": "/sample/#page-title",
+            "text": "Content...",
+            "title": "Page title"
+        }
+    ]
+}
